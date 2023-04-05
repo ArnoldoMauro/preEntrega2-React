@@ -25,10 +25,26 @@ function BootstrapNavbar() {
           <ul className="navbar-nav">
             
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/">Acerca_de</Link>
+              <Link className="nav-link" aria-current="#" to="/">Acerca_de</Link>
             </li>
             
-            <li className="nav-item dropdown">
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="/categorys/Malbec" to="/">Malbec</Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="/categorys/Cabernet" to="/">Cabernet Sauvignon</Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="/categorys/Syrah" to="/">Syrah</Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="#" to="/">Merlot</Link>
+            </li>
+
+            {/* <li className="nav-item dropdown">
               <Link className="nav-link dropdown-toggle" to="/categorys" role="button" data-bs-toggle="dropdown" aria-expanded="false">Varietales</Link>
               <ul className="dropdown-menu">
                 <li><Link className="dropdown-item" to="/categorys/malbec">Malbec</Link></li>
@@ -37,7 +53,7 @@ function BootstrapNavbar() {
                 <li><Link className="dropdown-item" to="/categorys/merlot">Merlot</Link></li>
                 <li><Link className="dropdown-item" to="#!">Syrah</Link></li>
               </ul>
-            </li>
+            </li> */}
             
             <li className="nav-item">
               <Link className="nav-link" to="#">Contacto</Link>
